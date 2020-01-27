@@ -5,20 +5,20 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: nas3f
+google_analytics: nas3f
+title: Nas3f
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Nasef
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
+  name: Nas3f
   email: nnas3f@gmail.com
   github: nas3f
   twitter: nnas3f
@@ -30,9 +30,7 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+ sidebar_background_image: https://scontent.faly3-1.fna.fbcdn.net/v/t1.0-9/82788824_2565868663694227_7779928344367202304_n.jpg?_nc_cat=109&_nc_ohc=j-v6au0UXL8AX8SViDc&_nc_ht=scontent.faly3-1.fna&oh=f7afb3913c8434fc15e79ddd199c5233&oe=5ECAE302
 
 BASE_PATH:
 
