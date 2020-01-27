@@ -71,7 +71,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.4)
   jekyll-chalk
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
