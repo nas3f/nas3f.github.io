@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'nokogiri', '~> 1.6.8.rc2'
+gem 'nokogiri'
 gem "autoprefixer-rails"
 gem "html-proofer"
 gem "image_optim"
