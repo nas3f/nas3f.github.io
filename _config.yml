@@ -30,7 +30,7 @@ twitter_username: nas3f
 github_username:  nas3f
 
 # Build settings
-theme: minima
+theme: jekyll-chalk
 plugins:
   - jekyll-feed
 
