@@ -144,7 +144,6 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   mini_magick
-  nokogiri
   sass
   sprockets (~> 3.7)
   uglifier
