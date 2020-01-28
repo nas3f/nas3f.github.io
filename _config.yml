@@ -1,38 +1,56 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+title: Nas3f's Lab
+author: nas3f
+email: nnas3f@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: true # set to true to show excerpts on the homepage
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: nas3f
-google_analytics: nas3f
-title: Nas3f
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Nasef
+  tagline: Expermenter. Security Lunatic 
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Nasef
+  # generate social links in footer
+  social_links:
+    twitter: nnas3f
+    github:  nas3f
+    #linkedIn: 
+    #rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+     linkedin:muhammadnasef
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
 
-description: Stylish Jekyll Theme
-author:Nas3f
-  name: Nas3f
-  email: nnas3f@gmail.com
-  github: nas3f
-  twitter: nnas3f
-  pinterest: 
-  linkedin: 
-  bio: Experimenter, Breaker , Security Lunatic
-  email_md5: 4ec7fec11f5de851e3ba445b2b6a04500
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
- sidebar_background_image: https://scontent.faly3-1.fna.fbcdn.net/v/t1.0-9/82788824_2565868663694227_7779928344367202304_n.jpg?_nc_cat=109&_nc_ohc=j-v6au0UXL8AX8SViDc&_nc_ht=scontent.faly3-1.fna&oh=f7afb3913c8434fc15e79ddd199c5233&oe=5ECAE302
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
-BASE_PATH:
+# Build settings
+theme: plainwhite
 
 plugins:
-  - jekyll-paginate
+  - jekyll-seo-tag
+#  - jekyll-feed

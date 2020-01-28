@@ -1,4 +1,7 @@
-_config.yml
-_site/*
-*Thumbs.db
+*.gem
+.bundle
+.sass-cache
+_site
 Gemfile.lock
+.DS_Store
+vendor
