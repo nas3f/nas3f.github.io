@@ -11,7 +11,7 @@ Enables us to hack right into the box as a root.
 
 ### RECONNAISSANCE
 Starting this step with running Nmap
-{% highlight javascript %}
+```
 nmap -sC -sV 10.10.10.3
-{% endhighlight %}
+```
  
